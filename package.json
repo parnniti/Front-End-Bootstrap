@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/parnniti/git-test.git"
@@ -21,5 +20,10 @@
   "homepage": "https://github.com/parnniti/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
