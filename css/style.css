@@ -53,20 +53,16 @@ body {
   bottom: 0px;
   z-index: 1; }
 
-.modal-header{
+.modal-header {
   background: #512DA8;
-  color: white;
-}
+  color: floralwhite; }
 
-.modal-body{
+.modal-body {
   background: #D1C4E9;
-  color: black;
-}
+  color: black; }
 
-.close{
-  color: floralwhite;
-}
+.close {
+  color: floralwhite; }
 
 .close:hover {
-  color: floralwhite;
-}
+  color: floralwhite; }
