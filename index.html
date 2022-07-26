@@ -352,31 +352,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function(){
-            $('#mycarousel').carousel({ interval: 2000 })
-            $('#carouselButton').click(function(){
-                if($('#carouselButton').children('span').hasClass('fa-pause')){ 
-                    $('#mycarousel').carousel('pause');
-                    $('#carouselButton').children('span').removeClass('fa-pause');
-                    $('#carouselButton').children('span').addClass('fa-play');
-
-                }else {
-                    $('#mycarousel').carousel('cycle');
-                    $('#carouselButton').children('span').removeClass('fa-play');
-                    $('#carouselButton').children('span').addClass('fa-pause');
-                };
-            });
-
-            $("#login").click(function(){
-                $("#loginModal").modal();
-            })
-
-            $("#reserve").click(function(){
-                $("#reserveModal").modal();
-            })
-        });
-    </script>
-
+    <script src="js/scripts.js"></script>
     </body>
 </html>
